@@ -1,0 +1,28 @@
+ul li{
+    list-style-type: square;
+   /* list-style-image: url("./images/verysmall.JPG");*/
+}
+
+ol li::marker{
+    content:"🏏"
+}
+
+.family li::marker{
+    content: "👪"
+}
+
+dt{
+    color: red;
+}
+dd{
+    color: blue;
+}
+
+body{
+    background-color: lightblue;
+}
+img{
+    width: 300px;
+    background-color: lightcoral;
+    border-radius: 30px;
+}
